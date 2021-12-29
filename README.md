@@ -1,3 +1,5 @@
-# Groophy-Inc.github.io
+# [groophy-inc.github.io](https://groophy-inc.github.io/)
 
-[link](https://groophy-inc.github.io/)
+Website of Groophy-Inc organization
+
+
