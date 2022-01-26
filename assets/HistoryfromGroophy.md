@@ -46,8 +46,7 @@
 > #### **The most important results of this process for me**(Pre-Release before closed beta)
 > ---
 > Normally I will write here when the closed beta starts, but I can't finish this story without writing this name, 
-
-##### ***Mr.*** **Stefnotch.**
+> #### ***Mr.*** **Stefnotch.**
 
 
 
