@@ -10,7 +10,7 @@
 ---
 # **alpha beta**
 ---
->The alpha-beta process, which is the beginning of this adventure that I started on the 9th of the 6th month in 2021, means a lot to me.
+>The alpha-beta process, which is the beginning of this adventure that I started on the 9th June 2021, means a lot to me.
 >Batch IDE was named Cmd Debugger in alpha-beta, but it changed **over time**. I learned a lot while developing this project.
 >**But I believe I can do more.** So I went ahead and developed more.
 
