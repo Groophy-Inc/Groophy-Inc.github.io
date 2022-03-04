@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- SEO Meta Tags -->
+    <meta name="" content="">
+    <meta name="Groophy" content="Batch IDE">
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
+	<meta property="og:site_name" content="" /> <!-- website name -->
+	<meta property="og:site" content="" /> <!-- website link -->
+	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+	<meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
+
+    <!-- Webpage Title -->
+    <title>Batch IDE / Groophy.Inc ' Batch-Man</title>
+    
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/fontawesome-all.min.css" rel="stylesheet">
+    <link href="../css/aos.min.css" rel="stylesheet">
+    <link href="../css/swiper.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="../assets/images/favicon.png">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-dark" aria-label="Main navigation">
+        <div class="container">
+
+            <!-- Image Logo -->
+            <!-- <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a> -->
+
+            <!-- Text Logo - Use this if you don't have a graphic logo -->
+            <a class="navbar-brand logo-text" href="index.html">Batch IDE</a>
+
+            <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault" >
+                <ul class="navbar-nav ms-auto navbar-nav-scroll">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html#header">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#about">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false" href="#">Drop</a>
+                        
+                        <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                            <li><a class="dropdown-item" href="article.html">Article Details</a></li>
+                            <li><div class="dropdown-divider"></div></li>
+                            <li><a class="dropdown-item" href="terms.html">Terms Conditions</a></li>
+                            <li><div class="dropdown-divider"></div></li>
+                            <li><a class="dropdown-item" href="privacy.html">Privacy Policy</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <span class="nav-item social-icons">
+                    
+                    <span class="fa-stack">
+                        <a href="https://twitter.com/GroophyLifefor">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-twitter fa-stack-1x"></i>
+                        </a>
+                    </span>
+                </span>
+            </div> <!-- end of navbar-collapse -->
+        </div> <!-- end of container -->
+    </nav> <!-- end of navbar -->
+    <!-- end of navigation -->
+
+
+    <!-- Header -->
+    <header class="ex-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-10 offset-xl-1">
+                    <h1>Factorial</h1>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </header> <!-- end of ex-header -->
+    <!-- end of header -->
+
+
+    <!-- Basic -->
+    <div class="ex-basic-1 pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-10 offset-xl-1">
+                    <div class="text-box mt-5 mb-5 p-4">
+                        <p class="p-large">Groophy.Math.Math.Factorial("4");<br>4*3*2*1 -> 24</p>
+                    </div> <!-- end of text-box -->
+                    <!--p class="mb-5">You vexed shy mirth now noise. Talked him people valley add use her depend letter. Allowance too applauded now way something recommend. Mrs age men and trees jokes fancy. Gay pretended engrossed eagerness continued ten. Admitting day him contained unfeeling attention on these random words generated with tool</p-->
+                    
+					<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%"> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10</pre></td><td><pre style="margin: 0; line-height: 125%">        <span style="color: #888888">/// &lt;summary&gt;</span>
+        <span style="color: #888888">/// https://groophy-inc.github.io/factorial</span>
+        <span style="color: #888888">/// &lt;/summary&gt;</span>
+        <span style="color: #888888">/// &lt;param name=&quot;val&quot;&gt;&lt;/param&gt;</span>
+        <span style="color: #888888">/// &lt;returns&gt;&lt;/returns&gt;</span>
+        <span style="color: #008800; font-weight: bold">public</span> <span style="color: #008800; font-weight: bold">static</span> GValue <span style="color: #0066BB; font-weight: bold">Factorial</span>(GValue val)
+        {
+            IEnumerable&lt;<span style="color: #333399; font-weight: bold">int</span>&gt; ints = Enumerable.Range(<span style="color: #6600EE; font-weight: bold">1</span>, val.get_Int);
+            <span style="color: #008800; font-weight: bold">return</span> <span style="color: #008800; font-weight: bold">new</span> <span style="color: #0066BB; font-weight: bold">GValue</span>(ints.Aggregate((f, s) =&gt; f * s).ToString());
+        }
+</pre></td></tr></table></div>
+
+					<br>
+                    <a class="btn btn-tertiary" href="index.html#contact">Contact Us</a>
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of ex-basic-1 -->
+    <!-- end of basic -->
+
+
+    <!-- Footer -->
+    <section class="footer text-light" id="info">
+        <div class="container">
+            <div class="row" data-aos="fade-right">
+                <div class="col-lg-3 py-4 py-md-5">
+                    <div class="d-flex align-items-center">
+                        <h4 class="">Batch IDE</h4>
+                    </div>
+                    <p class="py-3 para-light">You can reach us from Batch IDE social media accounts and get advice, complaints, and information.</p>
+                    <div class="d-flex">
+                        <div class="me-3">
+                            <a href="https://twitter.com/GroophyLifefor">
+                                <i class="fab fa-twitter fa-2x py-2"></i>
+                            </a>
+                        </div>
+                        <!--<div class="me-3">
+                            <a href="#your-link">
+                                <i class="fab fa-instagram fa-2x py-2"></i>
+                            </a>
+                        </div>-->
+                    </div>
+                </div> <!-- end of col -->
+
+                <div class="col-lg-3 py-4 py-md-5">
+                    <div>
+                        <h4 class="py-2">Quick Links</h4>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="index.html#about"><p class="ms-3">About</p></a>
+                        </div>
+						<div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="docs.html"><p class="ms-3">Docs</p></a>
+                        </div>
+                        <!--
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="#"><p class="ms-3">Services</p></a>
+                        </div>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="#"><p class="ms-3">Plans</p></a>
+                        </div>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="#"><p class="ms-3">Contact</p></a>
+                        </div>
+                    -->
+                    </div>
+                </div> <!-- end of col -->
+
+                <div class="col-lg-3 py-4 py-md-5">
+                    <div>
+                        <h4 class="py-2">Useful Links</h4>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="privacy.html"><p class="ms-3">Privacy</p></a>
+                            
+                        </div>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="terms.html"><p class="ms-3">Terms</p></a>
+                        </div>
+                        <div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="faq.html"><p class="ms-3">FAQ</p></a>
+                        </div>
+						<div class="d-flex align-items-center py-2">
+                            <i class="fas fa-caret-right"></i>
+                            <a href="eula.html"><p class="ms-3">EULA</p></a>
+                        </div>
+                    </div>
+                </div> <!-- end of col -->
+
+                <div class="col-lg-3 py-4 py-md-5">
+                    <div class="d-flex align-items-center">
+                        <h4>~Kvc</h4>
+                    </div>
+                    <p class="py-3 para-light">“A hero can be anyone, even a man doing something as simple as sharing their creative work with others, and reassuring that Humanity is still alive!”</p>
+                    <div class="d-flex align-items-center">
+                    </div>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </section> <!-- end of footer -->
+
+
+    <!-- Bottom -->
+    <div class="bottom py-2 text-light" >
+        <div class="container d-flex justify-content-between">
+            <div>
+                <p>Copyright © Groophy.Inc ' Batch-Man</p><br>
+            </div>
+            <!--
+            <div>
+                <i class="fab fa-cc-visa fa-lg p-1"></i>
+                <i class="fab fa-cc-mastercard fa-lg p-1"></i>
+                <i class="fab fa-cc-paypal fa-lg p-1"></i>
+                <i class="fab fa-cc-amazon-pay fa-lg p-1"></i>
+            </div>
+        -->
+        </div> <!-- end of container -->
+    </div> <!-- end of bottom -->
+
+
+    <!-- Back To Top Button -->
+    <button onclick="topFunction()" id="myBtn">
+        <img src="../assets/images/up-arrow.png" alt="alternative">
+    </button>
+    <!-- end of back to top button -->
+
+
+    <!-- Scripts -->
+    <script src="../js/bootstrap.min.js"></script><!-- Bootstrap framework -->
+    <script src="../js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
+    <script src="../js/swiper.min.js"></script><!-- Swiper for image and text sliders -->
+    <script src="../js/aos.js"></script><!-- AOS on Animation Scroll -->
+    <script src="../js/script.js"></script>  <!-- Custom scripts -->
+</body>
+</html>
